@@ -1,0 +1,29 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mWebCrawlerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetURLContent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed for http://www1.coe.neu.edu/~rhillyard/indexSafe.html[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwget(URL)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should succeed for http://www1.coe.neu.edu/~rhillyard/indexSafe.html *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  The future returned an exception of type: scala.NotImplementedError, with message: an implementation is missing. (WebCrawlerSpec.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should not succeed for http://www1.coe.neu.edu/junk *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.concurrent.ExecutionException: Boxed Exception was not an instance of edu.neu.coe.csye7200.asstwc.WebCrawlerURLException, but an instance of java.util.concurrent.ExecutionException (WebCrawlerSpec.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not succeed for http://www1.coe.neu.edu/~rhillyard/indexSafe.html[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwget(Seq[URL])[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should succeed for http://www1.coe.neu.edu/~rhillyard/indexSafe.html, http://www.google.com/ *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  The future returned an exception of type: scala.NotImplementedError, with message: an implementation is missing. (WebCrawlerSpec.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfilterAndFlatten[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.neu.coe.csye7200.asstwc.WebCrawler$.wget(WebCrawler.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.neu.coe.csye7200.asstwc.WebCrawlerSpec.$anonfun$new$20(WebCrawlerSpec.scala:63)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1683)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcrawler(Seq[URL])[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should succeed for http://www1.coe.neu.edu/~rhillyard/indexSafe.html, depth 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  The future returned an exception of type: scala.NotImplementedError, with message: an implementation is missing. (WebCrawlerSpec.scala:80)[0m[0m

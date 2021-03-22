@@ -1,0 +1,50 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMonadOpsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftFuture[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAsFuture[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceForgivingWithLogging[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceWithLogging[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSequenceForgiving[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftTry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mZip[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Option,Option)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Try,Try)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mzip(Future,Future)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should succeed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOptionToTry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSequence[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.neu.coe.csye7200.asstwc.MonadOps$.sequence(MonadOps.scala:92)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.neu.coe.csye7200.asstwc.MonadOpsSpec.$anonfun$new$34(MonadOpsSpec.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1683)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmapFuture[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLiftOption[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMap2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFlatten[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work3[0m[0m

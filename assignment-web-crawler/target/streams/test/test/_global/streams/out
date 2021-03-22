@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.neu.coe.csye7200.asstwc.MonadOpsSpec, org.scalatest.tools.Framework$$anon$1@6e1b010, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.neu.coe.csye7200.asstwc.WebCrawlerSpec, org.scalatest.tools.Framework$$anon$1@6e1b010, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 584 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 28[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 22, failed 6, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 6 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.neu.coe.csye7200.asstwc.MonadOpsSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.neu.coe.csye7200.asstwc.WebCrawlerSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(asstwc / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
